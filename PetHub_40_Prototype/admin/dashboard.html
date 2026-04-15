@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetHub | Admin Dashboard</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="../index.html">
+      <span class="brand-mark">🐾</span>
+      <span>PetHub</span>
+    </a>
+    <nav class="nav-links">
+      <a data-nav href="../index.html">Home</a>
+      <a data-nav href="../about.html">About</a>
+      <a data-nav href="../products.html">Products</a>
+      <a data-nav href="../cart.html">Cart</a>
+      <a data-nav href="../checkout.html">Checkout</a>
+      <a data-nav href="../login.html">Login</a>
+      <a data-nav href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container dashboard-grid">
+    <aside class="card side-menu">
+      <div class="kicker">Admin panel</div>
+      <h3>Dashboard menu</h3>
+      <a class="active" href="#">Overview</a>
+      <a href="#">Products</a>
+      <a href="#">Orders</a>
+      <a href="#">Customers</a>
+      <a href="#">Reports</a>
+      <a href="#">Settings</a>
+    </aside>
+    <div>
+      <div class="cards-4">
+        <div class="card"><div class="kicker">Orders today</div><h2>18</h2><p>Pending and completed orders overview.</p></div>
+        <div class="card"><div class="kicker">Products</div><h2>64</h2><p>Total products currently listed in stock.</p></div>
+        <div class="card"><div class="kicker">Customers</div><h2>126</h2><p>Registered customer accounts in the system.</p></div>
+        <div class="card"><div class="kicker">Revenue</div><h2>$1,840</h2><p>Sample dashboard figure for visual progress.</p></div>
+      </div>
+      <div class="section" style="padding-top:24px;">
+        <div class="cards-3">
+          <div class="card"><h3>Low stock alert</h3><p>3 items need restocking this week.</p></div>
+          <div class="card"><h3>Recent order status</h3><p>12 shipped, 4 processing, 2 pending payment.</p></div>
+          <div class="card"><h3>Next backend step</h3><p>Connect this layout to real admin tables and session-based access control.</p></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Recent orders</h3>
+        <table class="table-lite">
+          <thead><tr><th>Order ID</th><th>Customer</th><th>Status</th><th>Total</th></tr></thead>
+          <tbody>
+            <tr><td>#PH1024</td><td>Sarah Lim</td><td>Shipped</td><td>$74</td></tr>
+            <tr><td>#PH1025</td><td>Daniel Park</td><td>Processing</td><td>$42</td></tr>
+            <tr><td>#PH1026</td><td>Emily Tan</td><td>Pending</td><td>$95</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="card">
+      <div class="kicker">PetHub Project</div>
+      <h3>Assignment 2 ongoing build</h3>
+      <p>This prototype is designed to show visible project progress for ICT312. It includes key customer pages and a starter admin dashboard.</p>
+    </div>
+    <div class="card">
+      <h3>Current progress</h3>
+      <p class="small">Frontend pages, navigation, cart, checkout, contact flow, and admin dashboard prototype completed. PHP and MySQL integration can be added next.</p>
+    </div>
+    <div class="card">
+      <h3>Suggested screenshots</h3>
+      <p class="small">Home, Products, Product Details, Cart, Checkout, Admin Dashboard, and GitHub repository page.</p>
+    </div>
+  </div>
+</footer>
+<script src="../js/script.js"></script>
+</body>
+</html>

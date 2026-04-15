@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetHub | Products</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">🐾</span>
+      <span>PetHub</span>
+    </a>
+    <nav class="nav-links">
+      <a data-nav href="index.html">Home</a>
+      <a data-nav href="about.html">About</a>
+      <a data-nav href="products.html">Products</a>
+      <a data-nav href="cart.html">Cart</a>
+      <a data-nav href="checkout.html">Checkout</a>
+      <a data-nav href="login.html">Login</a>
+      <a data-nav href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="kicker">Product catalogue</div>
+        <h1>Browse featured pet products</h1>
+      </div>
+      <p>Static product cards for the current prototype. Filtering is included with JavaScript.</p>
+    </div>
+    <div class="filter-bar">
+      <button class="btn filter-btn active" data-filter="all">All</button>
+      <button class="btn filter-btn" data-filter="food">Food</button>
+      <button class="btn filter-btn" data-filter="toys">Toys</button>
+      <button class="btn filter-btn" data-filter="care">Care</button>
+    </div>
+    <div class="catalog">
+      <div class="card product-card" data-category="food"><div class="product-image">🍖</div><div class="product-meta"><h3>Premium Puppy Bites</h3><span class="price">$24</span></div><div class="tag-row"><span class="chip">Food</span><span class="chip">Best Seller</span></div><p>Healthy dry food for growing puppies with balanced nutrition.</p><div class="btn-row"><a class="btn btn-secondary" href="product-details.html">View Details</a><a class="btn btn-primary" href="cart.html">Add to Cart</a></div></div>
+      <div class="card product-card" data-category="toys"><div class="product-image">🎾</div><div class="product-meta"><h3>Interactive Fetch Ball</h3><span class="price">$15</span></div><div class="tag-row"><span class="chip">Toys</span><span class="chip">Dog</span></div><p>A durable toy designed for playful exercise and active pets.</p><div class="btn-row"><a class="btn btn-secondary" href="product-details.html">View Details</a><a class="btn btn-primary" href="cart.html">Add to Cart</a></div></div>
+      <div class="card product-card" data-category="care"><div class="product-image">🧴</div><div class="product-meta"><h3>Gentle Pet Shampoo</h3><span class="price">$18</span></div><div class="tag-row"><span class="chip">Care</span><span class="chip">New</span></div><p>Mild grooming shampoo for a soft coat and clean skin.</p><div class="btn-row"><a class="btn btn-secondary" href="product-details.html">View Details</a><a class="btn btn-primary" href="cart.html">Add to Cart</a></div></div>
+      <div class="card product-card" data-category="food"><div class="product-image">🐱</div><div class="product-meta"><h3>Cat Delight Mix</h3><span class="price">$22</span></div><div class="tag-row"><span class="chip">Food</span><span class="chip">Cat</span></div><p>A complete meal mix designed for adult cats with real protein.</p><div class="btn-row"><a class="btn btn-secondary" href="product-details.html">View Details</a><a class="btn btn-primary" href="cart.html">Add to Cart</a></div></div>
+      <div class="card product-card" data-category="toys"><div class="product-image">🪢</div><div class="product-meta"><h3>Chew Rope Pack</h3><span class="price">$14</span></div><div class="tag-row"><span class="chip">Toys</span><span class="chip">Bundle</span></div><p>Textured rope toys made for chewing, tugging, and enrichment.</p><div class="btn-row"><a class="btn btn-secondary" href="product-details.html">View Details</a><a class="btn btn-primary" href="cart.html">Add to Cart</a></div></div>
+      <div class="card product-card" data-category="care"><div class="product-image">🛏️</div><div class="product-meta"><h3>Soft Pet Bed</h3><span class="price">$39</span></div><div class="tag-row"><span class="chip">Care</span><span class="chip">Comfort</span></div><p>A cozy resting bed for small pets with soft padded sides.</p><div class="btn-row"><a class="btn btn-secondary" href="product-details.html">View Details</a><a class="btn btn-primary" href="cart.html">Add to Cart</a></div></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="card">
+      <div class="kicker">PetHub Project</div>
+      <h3>Assignment 2 ongoing build</h3>
+      <p>This prototype is designed to show visible project progress for ICT312. It includes key customer pages and a starter admin dashboard.</p>
+    </div>
+    <div class="card">
+      <h3>Current progress</h3>
+      <p class="small">Frontend pages, navigation, cart, checkout, contact flow, and admin dashboard prototype completed. PHP and MySQL integration can be added next.</p>
+    </div>
+    <div class="card">
+      <h3>Suggested screenshots</h3>
+      <p class="small">Home, Products, Product Details, Cart, Checkout, Admin Dashboard, and GitHub repository page.</p>
+    </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

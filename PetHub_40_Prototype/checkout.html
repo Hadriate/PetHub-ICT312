@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetHub | Checkout</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">🐾</span>
+      <span>PetHub</span>
+    </a>
+    <nav class="nav-links">
+      <a data-nav href="index.html">Home</a>
+      <a data-nav href="about.html">About</a>
+      <a data-nav href="products.html">Products</a>
+      <a data-nav href="cart.html">Cart</a>
+      <a data-nav href="checkout.html">Checkout</a>
+      <a data-nav href="login.html">Login</a>
+      <a data-nav href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container split-layout">
+    <div class="card form-shell">
+      <div class="kicker">Checkout</div>
+      <h1>Complete your order</h1>
+      <div class="form-grid">
+        <div><label>First Name</label><input placeholder="Keane"></div>
+        <div><label>Last Name</label><input placeholder="Frederick"></div>
+      </div>
+      <label>Email</label><input placeholder="name@example.com">
+      <label>Address</label><input placeholder="123 Example Street, Sydney">
+      <div class="form-grid">
+        <div><label>Suburb</label><input placeholder="Sydney"></div>
+        <div><label>Postcode</label><input placeholder="2000"></div>
+      </div>
+      <label>Payment Method</label>
+      <select><option>Credit / Debit Card</option><option>PayPal</option><option>Cash on Delivery</option></select>
+      <div class="btn-row"><button class="btn btn-primary">Place Order</button><a class="btn btn-secondary" href="cart.html">Back to Cart</a></div>
+      <p class="helper">Form handling can be connected to PHP later so orders are saved in the database.</p>
+    </div>
+    <div class="card">
+      <h3>Checkout summary</h3>
+      <p>Premium Puppy Bites × 1</p>
+      <p>Interactive Fetch Ball × 2</p>
+      <p>Gentle Pet Shampoo × 1</p>
+      <hr style="border:none;border-top:1px solid #f0e5de;margin:16px 0;">
+      <p>Estimated total: <strong>$80</strong></p>
+      <div class="notice">This page helps show a complete customer journey for assignment screenshots.</div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="card">
+      <div class="kicker">PetHub Project</div>
+      <h3>Assignment 2 ongoing build</h3>
+      <p>This prototype is designed to show visible project progress for ICT312. It includes key customer pages and a starter admin dashboard.</p>
+    </div>
+    <div class="card">
+      <h3>Current progress</h3>
+      <p class="small">Frontend pages, navigation, cart, checkout, contact flow, and admin dashboard prototype completed. PHP and MySQL integration can be added next.</p>
+    </div>
+    <div class="card">
+      <h3>Suggested screenshots</h3>
+      <p class="small">Home, Products, Product Details, Cart, Checkout, Admin Dashboard, and GitHub repository page.</p>
+    </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
